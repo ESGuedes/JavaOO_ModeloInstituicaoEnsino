@@ -1,6 +1,8 @@
 
 package aula2610_ensino;
 
+// Código postado no Git Hub no dia 11/11/2016
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
