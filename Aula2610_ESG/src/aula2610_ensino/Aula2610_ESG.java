@@ -390,6 +390,7 @@ public class Aula2610_ESG {
                     System.out.println("--- Dados do Aluno ---");
                     System.out.println("Código Aluno: " + a.getCodigo() );
                     System.out.println("Nome Aluno: " + a.getNome());
+                    System.out.println("Este Aluno possui matricula em " + cursosMatriculadosPorAluno.size() + " Cursos.");
                     System.out.println("");
                     System.out.println("--- Cusrsos Matriculados ---");
                 
@@ -426,8 +427,10 @@ public class Aula2610_ESG {
                     System.out.println("Código Curso: " + c.getCodigo() );
                     System.out.println("Nome Curso: " + c.getNome());
                     System.out.println("Turno do Curso: " + c.getTurno());
+                    System.out.println("Existem " + alunosMatriculadosPorCurso.size() + "Alunos matriculados neste curso.");
                     System.out.println("");
-                    System.out.println("--- Lista dos Alunos metriculados neste Curso ---");
+                    System.out.println("--- Lista dos Alunos ---");
+                    
 
                 }
             }
